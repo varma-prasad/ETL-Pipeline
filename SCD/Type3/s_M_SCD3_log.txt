@@ -1,0 +1,164 @@
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6014 : Initializing session [s_M_SCD3] at [Tue Mar 12 13:44:35 2024].
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6683 : Repository Name: [rep]
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6684 : Server Name: [is]
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6686 : Folder: [ETL QA Labs]
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6685 : Workflow: [wf_M_SCD3] Run Instance Name: [] Run Id: [321]
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6101 : Mapping name: M_SCD3.
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6703 : Session [s_M_SCD3] is run by 64-bit Integration Service  [node01], version [10.2.0], build [0807].
+2024-03-12 13:44:35 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2024-03-12 13:44:35 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24058 : Running Partition Group [1].
+2024-03-12 13:44:35 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2024-03-12 13:44:35 : INFO : (4948 | MONITOR) : (IS | is) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2024-03-12 13:44:35 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2024-03-12 13:44:35 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24003 : Initializing session run.
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : CMN_1569 : Server Mode: [ASCII]
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : TM_6151 : The session sort order is [Binary].
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : TM_6156 : Using low precision processing.
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : TM_6307 : DTM error log disabled. 
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : TE_7022 : TShmWriter: Initialized
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : DBG_21075 : Connecting to database [xepdb1], user [core]
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : TM_6007 : DTM initialized successfully for session [s_M_SCD3]
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2024-03-12 13:44:35 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Tue Mar 12 13:44:35 2024)
+2024-03-12 13:44:35 : INFO : (4948 | PRE-SESS) : (IS | is) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2024-03-12 13:44:35 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Tue Mar 12 13:44:35 2024)
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : PETL_24006 : Starting data movement.
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TT_11183 : Enabled using [1 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [1] lookup caches; [0] on-demand only).
+2024-03-12 13:44:35 : INFO : (4948 | MAPPING) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 24000000 bytes and Block size is 65536 bytes.
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1) : (IS | is) : node01 : PETL_24091 : Thread [LKPDP_1] has the ID [5].
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1) : (IS | is) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS]: Default sql to create lookup cache: SELECT EMPNAME,DESIGNATION,Prev_Designation,SALARY,EMPID FROM SCD3 ORDER BY EMPID
+
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1) : (IS | is) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS] from [141611895] to [141612800].
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1) : (IS | is) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS] from [283223790] to [283230208].
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS].
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [6].
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:READER_1_1) : (IS | is) : node01 : PETL_24091 : Thread [LKPDP_1:READER_1_1] has the ID [7].
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : FR_3118 : source [SQ_SCD_Implementation] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:READER_1_1) : (IS | is) : node01 : DBG_21438 : Reader: Source is [xepdb1], user [core]
+2024-03-12 13:44:35 : INFO : (4948 | TRANSF_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [8].
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [9].
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:READER_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : PETL_24091 : Thread [LKPDP_1:TRANSF_1_1] has the ID [10].
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:READER_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:READER_1_1) : (IS | is) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Tue Mar 12 13:44:35 2024)
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:READER_1_1) : (IS | is) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Tue Mar 12 13:44:35 2024)
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Tue Mar 12 13:44:35 2024)
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:READER_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21682 : Lookup table row count : 5
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21297 : Lookup cache row count : 5
+
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Tue Mar 12 13:44:35 2024)
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : CMN_1671 : Created new cache files PMLKUP82_4_0_321W64.[dat/idx] in directory C:\Informatica\10.2.0\server\infa_shared\Cache for Lookup [LKPTRANS].
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21641 : LKPTRANS: Index cache size = [141612800], Data cache size = [283230208]
+2024-03-12 13:44:35 : INFO : (4948 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS{{DSQ}}]. Total errors [0] 
+2024-03-12 13:44:35 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2133]).
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table SCD3 :SQL INSERT statement:
+INSERT INTO SCD3(EMPID,EMPNAME,DESIGNATION,SALARY,PREV_DESIGNATION,CREATE_DATE)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table SCD3 :SQL UPDATE statement:
+UPDATE SCD3 SET EMPNAME = ?, DESIGNATION = ?, SALARY = ?, PREV_DESIGNATION = ?, CREATE_DATE = ? WHERE EMPID = ?
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table SCD3 :SQL DELETE statement:
+DELETE FROM SCD3 WHERE EMPID = ?
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2133]).
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table SCD3 :SQL INSERT statement:
+INSERT INTO SCD3(EMPID,EMPNAME,DESIGNATION,SALARY,PREV_DESIGNATION,UPDATE_DATE)  VALUES ( ?, ?, ?, ?, ?, ?) 
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table SCD3 :SQL UPDATE statement:
+UPDATE SCD3 SET EMPNAME = ?, DESIGNATION = ?, SALARY = ?, PREV_DESIGNATION = ?, UPDATE_DATE = ? WHERE EMPID = ?
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table SCD3 :SQL DELETE statement:
+DELETE FROM SCD3 WHERE EMPID = ?
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [SCD3, SCD3]
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8003 : Writer initialization complete.
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8005 : Writer run started.
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Tue Mar 12 13:44:35 2024
+
+Target tables:
+
+     SCD3
+     SCD3
+
+
+2024-03-12 13:44:35 : WARNING : (4948 | READER_1_1_1) : (IS | is) : node01 : FR_3119 : Metadata column name [Salary] does not match with source column name [ Salary].
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : FR_3076 : Skipped over [1] lines.
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [F:\VARMA\IT_Transition\ETL\SCD\SCD Implementation.csv] : (Tue Mar 12 13:44:35 2024)
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : FR_3015 : Warning! Row [3], field [EmpName]: Data [Divya somshekhar] was truncated.
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : BLKR_16019 : Read [5] rows, read [0] error rows for source table [SCD_Implementation] instance name [SCD_Implementation]
+2024-03-12 13:44:35 : INFO : (4948 | READER_1_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-12 13:44:35 : INFO : (4948 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_SCD_Implementation]. Total errors [0] 
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [SCD3] at: Tue Mar 12 13:44:35 2024
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [SCD3] at: Tue Mar 12 13:44:35 2024
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [SCD3] at: Tue Mar 12 13:44:35 2024
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8141 : 
+Commit on end-of-data  Tue Mar 12 13:44:35 2024
+===================================================
+
+WRT_8036 Target: SCD3 (Instance Name: [SCD3_Insert])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+WRT_8036 Target: SCD3 (Instance Name: [SCD3_Update])
+WRT_8041 Updated rows  - Requested: 3          Applied: 3          Rejected: 0          Affected: 3         
+
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [SCD3] at: Tue Mar 12 13:44:35 2024
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8035 : Load complete time: Tue Mar 12 13:44:35 2024
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: SCD3 (Instance Name: [SCD3_Insert])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+WRT_8036 Target: SCD3 (Instance Name: [SCD3_Update])
+WRT_8041 Updated rows  - Requested: 3          Applied: 3          Rejected: 0          Affected: 3         
+
+
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2024-03-12 13:44:35 : INFO : (4948 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8006 : Writer run completed.
+2024-03-12 13:44:35 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_SCD_Implementation] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_SCD_Implementation] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [SCD3_Insert, SCD3_Update] has completed. The total run time was insufficient for any meaningful statistics.
+
+2024-03-12 13:44:36 : INFO : (4948 | MAPPING) : (IS | is) : node01 : CMN_1793 : The index cache size that would hold [5] rows in the lookup table for [LKPTRANS], in memory, is [2800] bytes
+2024-03-12 13:44:36 : INFO : (4948 | MAPPING) : (IS | is) : node01 : CMN_1792 : The data cache size that would hold [5] rows in the lookup table for [LKPTRANS], in memory, is [16384] bytes
+2024-03-12 13:44:36 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Tue Mar 12 13:44:36 2024)
+2024-03-12 13:44:36 : INFO : (4948 | POST-SESS) : (IS | is) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [11].
+2024-03-12 13:44:36 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Tue Mar 12 13:44:36 2024)
+2024-03-12 13:44:36 : INFO : (4948 | MAPPING) : (IS | is) : node01 : TE_7216 : Deleting cache files [PMLKUP82_4_0_321W64] for transformation [LKPTRANS].
+2024-03-12 13:44:36 : INFO : (4948 | MAPPING) : (IS | is) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2024-03-12 13:44:36 : INFO : (4948 | MANAGER) : (IS | is) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2024-03-12 13:44:36 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : PETL_24012 : Session run completed successfully.
+2024-03-12 13:44:36 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2024-03-12 13:44:36 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6252 : Source Load Summary.
+2024-03-12 13:44:36 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_SCD_Implementation] (Instance Name: [SQ_SCD_Implementation])
+	 Output Rows [5], Affected Rows [5], Applied Rows [5], Rejected Rows [0]
+2024-03-12 13:44:36 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6253 : Target Load Summary.
+2024-03-12 13:44:36 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SCD3] (Instance Name: [SCD3_Insert])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2024-03-12 13:44:36 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SCD3] (Instance Name: [SCD3_Update])
+	 Output Rows [3], Affected Rows [3], Applied Rows [3], Rejected Rows [0]
+2024-03-12 13:44:36 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6023 : 
+===================================================
+
+2024-03-12 13:44:36 : INFO : (4948 | DIRECTOR) : (IS | is) : node01 : TM_6020 : Session [s_M_SCD3] completed at [Tue Mar 12 13:44:36 2024].

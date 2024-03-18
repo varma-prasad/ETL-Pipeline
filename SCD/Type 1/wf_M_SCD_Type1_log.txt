@@ -1,0 +1,22 @@
+2024-03-12 17:00:12 : INFO : (7932 | 16092) : (IS | is) : node01 : LM_36435 : Starting execution of workflow [wf_M_SCD_Type1] in folder [ETL QA Labs] last saved by user [Administrator].
+2024-03-12 17:00:12 : INFO : (7932 | 16092) : (IS | is) : node01 : LM_44206 : Workflow wf_M_SCD_Type1 started with run id [330], run instance name [], run type [Concurrent Run Disabled].
+2024-03-12 17:00:12 : INFO : (7932 | 16092) : (IS | is) : node01 : LM_44195 : Workflow [wf_M_SCD_Type1] service level [SLPriority:5,SLDispatchWaitTime:1800].
+2024-03-12 17:00:12 : INFO : (7932 | 16092) : (IS | is) : node01 : LM_44253 : Workflow started. Clients will be notified
+2024-03-12 17:00:12 : INFO : (7932 | 16092) : (IS | is) : node01 : LM_36388 : Session task instance [s_M_SCD_Type1] is waiting to be started.
+2024-03-12 17:00:12 : INFO : (7932 | 10368) : (IS | is) : node01 : LM_36682 : Session task instance [s_M_SCD_Type1]: started a process with pid [2740] on node [node01].
+2024-03-12 17:00:12 : INFO : (7932 | 10368) : (IS | is) : node01 : LM_36330 : Session task instance [s_M_SCD_Type1]: Execution started.
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [TM_6793 Fetching initialization properties from the Integration Service. : (Tue Mar 12 17:00:12 2024)]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [DISP_20305 The [Preparer] DTM with process id [2740] is running on node [node01].
+ : (Tue Mar 12 17:00:12 2024)]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [PETL_24036 Beginning the prepare phase for the session.]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [TM_6721 Started [Connect to Repository].]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [TM_6722 Finished [Connect to Repository].  It took [0.145103] seconds.]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [TM_6794 Connected to repository [rep] in domain [Domain] as user [Administrator] in security domain [Native].]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [TM_6721 Started [Fetch Session from Repository].]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [TM_6722 Finished [Fetch Session from Repository].  It took [0.0299189] seconds.]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [TM_6721 Started [Partition Group Formation].]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [TM_6722 Finished [Partition Group Formation].  It took [0.0249331] seconds.]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [PETL_24037 Finished the prepare phase for the session.]
+2024-03-12 17:00:12 : INFO : (7932 | 12760) : (IS | is) : node01 : LM_36488 : Session task instance [s_M_SCD_Type1] : [TM_6792 Notifying the Integration Service that the prepare phase has been completed. : (Tue Mar 12 17:00:12 2024)]
+2024-03-12 17:00:14 : INFO : (7932 | 15564) : (IS | is) : node01 : LM_36318 : Session task instance [s_M_SCD_Type1]: Execution succeeded.
+2024-03-12 17:00:15 : INFO : (7932 | 360) : (IS | is) : node01 : LM_36318 : Workflow [wf_M_SCD_Type1]: Execution succeeded.
