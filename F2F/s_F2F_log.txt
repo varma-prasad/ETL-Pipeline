@@ -1,0 +1,140 @@
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6014 : Initializing session [s_F2F] at [Sat Mar 09 14:47:16 2024].
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6683 : Repository Name: [rep]
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6684 : Server Name: [is]
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6686 : Folder: [ETL QA Labs]
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6685 : Workflow: [wf_F2F] Run Instance Name: [] Run Id: [252]
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6101 : Mapping name: F2F.
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6703 : Session [s_F2F] is run by 64-bit Integration Service  [node01], version [10.2.0], build [0807].
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24058 : Running Partition Group [1].
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2024-03-09 14:47:16 : INFO : (2548 | MONITOR) : (IS | is) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24003 : Initializing session run.
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : CMN_1569 : Server Mode: [ASCII]
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : TM_6151 : The session sort order is [Binary].
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : TM_6156 : Using low precision processing.
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : TM_6307 : DTM error log disabled. 
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : TE_7022 : TShmWriter: Initialized
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : DBG_21694 : FF_Joiner Partition [0]: Index cache size = [38621426], Data cache size = [77242852]
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : TT_11098 : The Joiner transformation [FF_Joiner] is configured with the join algorithm: Nested-Loop.
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : DBG_21693 : FF_sorter: Cache size for partition [1] = [308971408]
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : SORT_40419 : For Transformation [FF_sorter], memory used is [308971408] bytes and row size is 64 bytes.
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : TM_6007 : DTM initialized successfully for session [s_F2F]
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | PRE-SESS) : (IS | is) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : PETL_24006 : Starting data movement.
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 24000000 bytes and Block size is 65536 bytes.
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_1_1) : (IS | is) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_1_1) : (IS | is) : node01 : FR_3118 : source [SQ_Departments_FF] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_1_1) : (IS | is) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_2_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_2_1] has the ID [7].
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_2_1) : (IS | is) : node01 : DBG_21437 : Reader: Source is a file-based source.
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_2_1) : (IS | is) : node01 : FR_3118 : source [SQ_Employees_FF] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_2_1) : (IS | is) : node01 : FR_3071 : Maximum Line sequential buffer length is 1026.
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_2_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_2_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_2_1] has the ID [8].
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [9].
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table Trg_Emp :Writing output to: F:\VARMA\IT_Transition\ETL\F2F\trg_emp.csv
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8222 : Target file [F:\VARMA\IT_Transition\ETL\F2F\trg_emp.csv] code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [Trg_Emp]
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8003 : Writer initialization complete.
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_2_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8005 : Writer run started.
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Sat Mar 09 14:47:16 2024
+
+Target tables:
+
+     Trg_Emp
+
+
+2024-03-09 14:47:16 : WARNING : (2548 | READER_1_1_1) : (IS | is) : node01 : FR_3119 : Metadata column name [DEPARTMENT_ID] does not match with source column name ["DEPARTMENT_ID","DEPARTMENT_NAME"].
+2024-03-09 14:47:16 : WARNING : (2548 | READER_1_2_1) : (IS | is) : node01 : FR_3119 : Metadata column name [EMPLOYEE_ID] does not match with source column name [EMPLOYEE_ID,FULL_NAME,DEPARTMENT_ID].
+2024-03-09 14:47:16 : WARNING : (2548 | READER_1_1_1) : (IS | is) : node01 : FR_3120 : Number of cloumn in metadata are more than source file.
+2024-03-09 14:47:16 : WARNING : (2548 | READER_1_2_1) : (IS | is) : node01 : FR_3120 : Number of cloumn in metadata are more than source file.
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_1_1) : (IS | is) : node01 : FR_3076 : Skipped over [1] lines.
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_2_1) : (IS | is) : node01 : FR_3076 : Skipped over [1] lines.
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_1_1) : (IS | is) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [F:\VARMA\IT_Transition\ETL\F2F\Departments.csv] : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_2_1) : (IS | is) : node01 : DBG_21430 : DBG_21430 Reading data from input source file [F:\VARMA\IT_Transition\ETL\F2F\Employees.csv] : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_1_1) : (IS | is) : node01 : BLKR_16019 : Read [27] rows, read [0] error rows for source table [Departments_FF] instance name [Departments_FF]
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21077 : DBG_21077 Create joiner cache on master relation : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_2_1) : (IS | is) : node01 : BLKR_16019 : Read [109] rows, read [0] error rows for source table [Employees_FF] instance name [Employees_FF]
+2024-03-09 14:47:16 : INFO : (2548 | READER_1_2_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_1_1) : (IS | is) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [FF_Joiner] from [38621426] to [38622000].
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_1_1) : (IS | is) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [FF_Joiner] from [77242852] to [77242960].
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_1_1) : (IS | is) : node01 : CMN_1690 : Created new data file [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR55_13_0_252.dat] and index file [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR55_13_0_252.idx] for Joiner [FF_Joiner].
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21214 : DBG_21214 Finished joiner cache on master relation : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_Departments_FF]. Total errors [0] 
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21603 : DBG_21603 Open master relation cache for detail joiner : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_2_1) : (IS | is) : node01 : SORT_40420 : SORT_40420 Start of input for Transformation [FF_sorter]. : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_2_1) : (IS | is) : node01 : SORT_40421 : SORT_40421 End of input for Transformation [FF_sorter]. : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_2_1) : (IS | is) : node01 : SORT_40422 : SORT_40422 End of output from Sorter Transformation [FF_sorter]. Processed 109 rows (6976 input bytes; 0 temp I/O bytes). : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_2_1) : (IS | is) : node01 : SORT_40423 : SORT_40423 End of sort for Sorter Transformation [FF_sorter]. : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21215 : DBG_21215 Finished processing detail relation : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_2_1) : (IS | is) : node01 : CMN_1795 : The index cache size that would hold [27] input rows from the master for [FF_Joiner], in memory, is [2000] bytes
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_2_1) : (IS | is) : node01 : CMN_1794 : The data cache size that would hold [27] input rows from the master for [FF_Joiner], in memory, is [1608] bytes
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [Trg_Emp] at: Sat Mar 09 14:47:16 2024
+2024-03-09 14:47:16 : INFO : (2548 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_Employees_FF]. Total errors [0] 
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [Trg_Emp] at: Sat Mar 09 14:47:16 2024
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8035 : Load complete time: Sat Mar 09 14:47:16 2024
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: Trg_Emp (Instance Name: [Trg_Emp])
+WRT_8038 Inserted rows - Requested: 107        Applied: 107        Rejected: 0          Affected: 107       
+
+
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2024-03-09 14:47:16 : INFO : (2548 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8006 : Writer run completed.
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_Departments_FF] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_Departments_FF] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [READER_1_2_1] created for [the read stage] of partition point [SQ_Employees_FF] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_2_1] created for [the transformation stage] of partition point [SQ_Employees_FF] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [Trg_Emp] has completed. The total run time was insufficient for any meaningful statistics.
+
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | POST-SESS) : (IS | is) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [10].
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Sat Mar 09 14:47:16 2024)
+2024-03-09 14:47:16 : INFO : (2548 | MAPPING) : (IS | is) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR55_13_0_252.dat] for transformation [FF_Joiner].
+2024-03-09 14:47:16 : INFO : (2548 | MANAGER) : (IS | is) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR55_13_0_252.idx] for transformation [FF_Joiner].
+2024-03-09 14:47:17 : INFO : (2548 | MANAGER) : (IS | is) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2024-03-09 14:47:17 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : PETL_24012 : Session run completed successfully.
+2024-03-09 14:47:17 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2024-03-09 14:47:17 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6252 : Source Load Summary.
+2024-03-09 14:47:17 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_Departments_FF] (Instance Name: [SQ_Departments_FF])
+	 Output Rows [27], Affected Rows [27], Applied Rows [27], Rejected Rows [0]
+2024-03-09 14:47:17 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_Employees_FF] (Instance Name: [SQ_Employees_FF])
+	 Output Rows [109], Affected Rows [109], Applied Rows [109], Rejected Rows [0]
+2024-03-09 14:47:17 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6253 : Target Load Summary.
+2024-03-09 14:47:17 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [Trg_Emp] (Instance Name: [Trg_Emp])
+	 Output Rows [107], Affected Rows [107], Applied Rows [107], Rejected Rows [0]
+2024-03-09 14:47:17 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6023 : 
+===================================================
+
+2024-03-09 14:47:17 : INFO : (2548 | DIRECTOR) : (IS | is) : node01 : TM_6020 : Session [s_F2F] completed at [Sat Mar 09 14:47:17 2024].
