@@ -1,0 +1,116 @@
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : VAR_27029 : Use persisted repository value [03/09/2024 14:53:51.000000000] for mapping variable:[$$MaxLoadDate].
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6014 : Initializing session [s_m_Incr_load] at [Mon Mar 18 19:12:21 2024].
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6683 : Repository Name: [rep]
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6684 : Server Name: [is]
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6686 : Folder: [ETL QA Labs]
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6685 : Workflow: [wf_m_Incr_load] Run Instance Name: [] Run Id: [345]
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6101 : Mapping name: m_Incr_load.
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6703 : Session [s_m_Incr_load] is run by 64-bit Integration Service  [node01], version [10.2.0], build [0807].
+2024-03-18 19:12:21 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2024-03-18 19:12:21 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24058 : Running Partition Group [1].
+2024-03-18 19:12:21 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2024-03-18 19:12:21 : INFO : (15164 | MONITOR) : (IS | is) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2024-03-18 19:12:21 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2024-03-18 19:12:21 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24003 : Initializing session run.
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : CMN_1569 : Server Mode: [ASCII]
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : TM_6151 : The session sort order is [Binary].
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : TM_6156 : Using low precision processing.
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : TM_6307 : DTM error log disabled. 
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : TE_7022 : TShmWriter: Initialized
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : TM_6007 : DTM initialized successfully for session [s_m_Incr_load]
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2024-03-18 19:12:21 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Mon Mar 18 19:12:21 2024)
+2024-03-18 19:12:21 : INFO : (15164 | PRE-SESS) : (IS | is) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2024-03-18 19:12:21 : INFO : (15164 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [INCR_EMPLOYEE_TRG]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-18 19:12:21 : INFO : (15164 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [INCR_EMPLOYEE_TRG] [instance id:12]
+2024-03-18 19:12:21 : INFO : (15164 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [INCR_EMPLOYEE_TRG] [instance id:12] determined successfully
+2024-03-18 19:12:21 : INFO : (15164 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [INCR_EMPLOYEE_TRG]. : (Mon Mar 18 19:12:21 2024)
+2024-03-18 19:12:21 : INFO : (15164 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [INCR_EMPLOYEE_TRG] succeeded. : (Mon Mar 18 19:12:21 2024)
+2024-03-18 19:12:21 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Mon Mar 18 19:12:21 2024)
+2024-03-18 19:12:21 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : PETL_24006 : Starting data movement.
+2024-03-18 19:12:21 : INFO : (15164 | MAPPING) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 24000000 bytes and Block size is 65536 bytes.
+2024-03-18 19:12:21 : INFO : (15164 | READER_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [5].
+2024-03-18 19:12:21 : INFO : (15164 | READER_1_1_1) : (IS | is) : node01 : DBG_21438 : Reader: Source is [xepdb1], user [hr]
+2024-03-18 19:12:22 : INFO : (15164 | READER_1_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-18 19:12:22 : INFO : (15164 | TRANSF_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [6].
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [7].
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8146 : Writer: Target is database [xepdb1], user [core], bulk mode [ON]
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8106 : Warning! Bulk Mode session - recovery is not guaranteed.
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2355]).
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table INCR_EMPLOYEE_TRG :SQL INSERT statement:
+INSERT INTO INCR_EMPLOYEE_TRG(EMPLOYEE_ID,FIRST_NAME,SALARY,DEPARTMENT_ID,LOAD_DATE)  VALUES ( ?, ?, ?, ?, ?) 
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [INCR_EMPLOYEE_TRG]. UPDATEs Not Supported.
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [INCR_EMPLOYEE_TRG]
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8003 : Writer initialization complete.
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8005 : Writer run started.
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Mon Mar 18 19:12:22 2024
+
+Target tables:
+
+     INCR_EMPLOYEE_TRG
+
+
+2024-03-18 19:12:22 : INFO : (15164 | READER_1_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-18 19:12:22 : INFO : (15164 | READER_1_1_1) : (IS | is) : node01 : RR_4029 : SQ Instance [SQ_INCR_EMPLOYEE_SRC] User specified SQL Query [SELECT INCR_EMPLOYEE_SRC.EMPLOYEE_ID, INCR_EMPLOYEE_SRC.FIRST_NAME, INCR_EMPLOYEE_SRC.SALARY, INCR_EMPLOYEE_SRC.DEPARTMENT_ID, INCR_EMPLOYEE_SRC.LOAD_DATE 
+FROM
+ INCR_EMPLOYEE_SRC
+where
+INCR_EMPLOYEE_SRC.LOAD_DATE > '03/09/2024 14:53:51']
+2024-03-18 19:12:22 : INFO : (15164 | READER_1_1_1) : (IS | is) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Mon Mar 18 19:12:22 2024)
+2024-03-18 19:12:22 : INFO : (15164 | READER_1_1_1) : (IS | is) : node01 : BLKR_16019 : Read [0] rows, read [0] error rows for source table [INCR_EMPLOYEE_SRC] instance name [INCR_EMPLOYEE_SRC]
+2024-03-18 19:12:22 : INFO : (15164 | READER_1_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-18 19:12:22 : INFO : (15164 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_INCR_EMPLOYEE_SRC]. Total errors [0] 
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [INCR_EMPLOYEE_TRG] at: Mon Mar 18 19:12:22 2024
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [INCR_EMPLOYEE_TRG] at: Mon Mar 18 19:12:22 2024
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8035 : Load complete time: Mon Mar 18 19:12:22 2024
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: INCR_EMPLOYEE_TRG (Instance Name: [INCR_EMPLOYEE_TRG])
+WRT_8044 No data loaded for this target
+
+
+
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2024-03-18 19:12:22 : INFO : (15164 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8006 : Writer run completed.
+2024-03-18 19:12:22 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_INCR_EMPLOYEE_SRC] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_INCR_EMPLOYEE_SRC] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [INCR_EMPLOYEE_TRG] has completed. The total run time was insufficient for any meaningful statistics.
+
+2024-03-18 19:12:22 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Mon Mar 18 19:12:22 2024)
+2024-03-18 19:12:22 : INFO : (15164 | POST-SESS) : (IS | is) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [8].
+2024-03-18 19:12:22 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Mon Mar 18 19:12:22 2024)
+2024-03-18 19:12:22 : INFO : (15164 | MAPPING) : (IS | is) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2024-03-18 19:12:22 : INFO : (15164 | MANAGER) : (IS | is) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2024-03-18 19:12:22 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : PETL_24012 : Session run completed successfully.
+2024-03-18 19:12:22 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : VAR_27048 : Persisting mapping variable values to the repository.
+2024-03-18 19:12:22 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : VAR_27049 : Mapping variable name: [$$MaxLoadDate], persisted value: [03/09/2024 14:53:51.000000000], run instance name [].
+2024-03-18 19:12:22 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2024-03-18 19:12:22 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6252 : Source Load Summary.
+2024-03-18 19:12:22 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_INCR_EMPLOYEE_SRC] (Instance Name: [SQ_INCR_EMPLOYEE_SRC])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+2024-03-18 19:12:22 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6253 : Target Load Summary.
+2024-03-18 19:12:22 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [INCR_EMPLOYEE_TRG] (Instance Name: [INCR_EMPLOYEE_TRG])
+	 Output Rows [0], Affected Rows [0], Applied Rows [0], Rejected Rows [0]
+2024-03-18 19:12:22 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6023 : 
+===================================================
+
+2024-03-18 19:12:22 : INFO : (15164 | DIRECTOR) : (IS | is) : node01 : TM_6020 : Session [s_m_Incr_load] completed at [Mon Mar 18 19:12:22 2024].
