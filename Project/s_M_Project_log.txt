@@ -1,0 +1,235 @@
+2024-03-18 19:11:03 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6014 : Initializing session [s_M_Project] at [Mon Mar 18 19:11:03 2024].
+2024-03-18 19:11:03 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6683 : Repository Name: [rep]
+2024-03-18 19:11:03 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6684 : Server Name: [is]
+2024-03-18 19:11:03 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6686 : Folder: [ETL QA Labs]
+2024-03-18 19:11:03 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6685 : Workflow: [wf_M_Project] Run Instance Name: [] Run Id: [344]
+2024-03-18 19:11:03 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6101 : Mapping name: M_Project.
+2024-03-18 19:11:04 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6964 : Date format for the Session is [MM/DD/YYYY HH24:MI:SS.US]
+2024-03-18 19:11:04 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [EnableDataEncryption,no]
+2024-03-18 19:11:04 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6708 : Using configuration property [StoreHAPersistenceInDB,no]
+2024-03-18 19:11:04 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6703 : Session [s_M_Project] is run by 64-bit Integration Service  [node01], version [10.2.0], build [0807].
+2024-03-18 19:11:04 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24091 : Thread [MANAGER] has the ID [1].
+2024-03-18 19:11:04 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24058 : Running Partition Group [1].
+2024-03-18 19:11:04 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24000 : Parallel Pipeline Engine initializing.
+2024-03-18 19:11:04 : INFO : (8216 | MONITOR) : (IS | is) : node01 : PETL_24091 : Thread [MONITOR] has the ID [2].
+2024-03-18 19:11:04 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24001 : Parallel Pipeline Engine running.
+2024-03-18 19:11:04 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24003 : Initializing session run.
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : PETL_24091 : Thread [MAPPING] has the ID [3].
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : CMN_1569 : Server Mode: [ASCII]
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : CMN_1570 : Server Code page: [MS Windows Latin 1 (ANSI), superset of Latin1]
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TM_6151 : The session sort order is [Binary].
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TM_6156 : Using low precision processing.
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TM_6180 : Deadlock retry logic will not be implemented.
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TM_6187 : Session target-based commit interval is [10000].
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TM_6307 : DTM error log disabled. 
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TE_7022 : TShmWriter: Initialized
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : DBG_21694 : JNRTRANS Partition [0]: Index cache size = [70805947], Data cache size = [141611894]
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TT_11098 : The Joiner transformation [JNRTRANS] is configured with the join algorithm: Nested-Loop.
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : DBG_21075 : Connecting to database [xepdb1], user [hr]
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TM_6007 : DTM initialized successfully for session [s_M_Project]
+2024-03-18 19:11:04 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : PETL_24033 : All DTM Connection Info: [<NONE>].
+2024-03-18 19:11:04 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24004 : PETL_24004 Starting pre-session tasks. : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : PETL_24091 : Thread [PRE-SESS] has the ID [4].
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [SALES_GENERAL]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [SALES_GENERAL_BENGALURU]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [SALES_GENERAL_DELHI]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21349 : No load constraints for Target [SALES_GENERAL_LONDON]. It does not reference any primary table from the same active source or transaction generator.
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [SALES_GENERAL] [instance id:7]
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [SALES_GENERAL] [instance id:7] determined successfully
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [SALES_GENERAL_BENGALURU] [instance id:8]
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [SALES_GENERAL_BENGALURU] [instance id:8] determined successfully
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [SALES_GENERAL_DELHI] [instance id:9]
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [SALES_GENERAL_DELHI] [instance id:9] determined successfully
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21104 : Determining truncate order for [SALES_GENERAL_LONDON] [instance id:10]
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : DBG_21531 :     Truncate order for [SALES_GENERAL_LONDON] [instance id:10] determined successfully
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [SALES_GENERAL]. : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [SALES_GENERAL] succeeded. : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [SALES_GENERAL_BENGALURU]. : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [SALES_GENERAL_BENGALURU] succeeded. : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [SALES_GENERAL_DELHI]. : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [SALES_GENERAL_DELHI] succeeded. : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : WRT_8365 : WRT_8365 Starting truncate for target table [SALES_GENERAL_LONDON]. : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | PRE-SESS) : (IS | is) : node01 : WRT_8022 : WRT_8022 Truncate table for table [SALES_GENERAL_LONDON] succeeded. : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24027 : PETL_24027 Pre-session task completed successfully. : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : PETL_24006 : Starting data movement.
+2024-03-18 19:11:04 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TT_11183 : Enabled using [1 (auto)] additional concurrent pipelines to build lookup caches. (Session likely will build or refresh [1] lookup caches; [0] on-demand only).
+2024-03-18 19:11:04 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 24000000 bytes and Block size is 65536 bytes.
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1) : (IS | is) : node01 : PETL_24091 : Thread [LKPDP_1] has the ID [5].
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1) : (IS | is) : node01 : DBG_21097 : Lookup Transformation [LKPTRANS]: Default sql to create lookup cache: SELECT PRODUCTNAME,PRODUCTUNITPRICE,PRODUCTID FROM PRODUCT ORDER BY PRODUCTID
+
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1) : (IS | is) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [LKPTRANS] from [70805947] to [70806400].
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1) : (IS | is) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [LKPTRANS] from [141611894] to [141615104].
+2024-03-18 19:11:04 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TT_11184 : Starting additional concurrent pipeline to build the lookup cache needed by Lookup transformation [LKPTRANS].
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1) : (IS | is) : node01 : TM_6660 : Total Buffer Pool size is 609824 bytes and Block size is 65536 bytes.
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_1_1] has the ID [6].
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_1_1) : (IS | is) : node01 : DBG_21438 : Reader: Source is [xepdb1], user [hr]
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:READER_1_1) : (IS | is) : node01 : PETL_24091 : Thread [LKPDP_1:READER_1_1] has the ID [7].
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:READER_1_1) : (IS | is) : node01 : DBG_21438 : Reader: Source is [xepdb1], user [hr]
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:READER_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : PETL_24091 : Thread [LKPDP_1:TRANSF_1_1] has the ID [8].
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:READER_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:READER_1_1) : (IS | is) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:READER_1_1) : (IS | is) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:READER_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21079 : DBG_21079 Creating Lookup Cache : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21682 : Lookup table row count : 4
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21297 : Lookup cache row count : 4
+
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21294 : DBG_21294 Lookup cache creation completed : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : CMN_1671 : Created new cache files PMLKUP61_12_0_344W64.[dat/idx] in directory C:\Informatica\10.2.0\server\infa_shared\Cache for Lookup [LKPTRANS].
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21641 : LKPTRANS: Index cache size = [70806400], Data cache size = [141615104]
+2024-03-18 19:11:04 : INFO : (8216 | LKPDP_1:TRANSF_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [LKPTRANS{{DSQ}}]. Total errors [0] 
+2024-03-18 19:11:04 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TT_11185 : No more lookup cache to build by additional concurrent pipeline in the current concurrent source set.
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_1_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_1_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_1_1] has the ID [9].
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_2_1) : (IS | is) : node01 : PETL_24091 : Thread [READER_1_2_1] has the ID [10].
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_2_1) : (IS | is) : node01 : DBG_21438 : Reader: Source is [xepdb1], user [hr]
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_2_1) : (IS | is) : node01 : BLKR_16003 : Initialization completed successfully.
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_2_1) : (IS | is) : node01 : PETL_24091 : Thread [TRANSF_1_2_1] has the ID [11].
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : PETL_24091 : Thread [WRITER_1_*_1] has the ID [12].
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2355]).
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table SALES_GENERAL :SQL INSERT statement:
+INSERT INTO SALES_GENERAL(SALES_ID,CUST_ID,FIRSTNAME,LASTNAME,CITY,COUNTRY,PRODUCTID,PRODUCT_NAME,PRODUCT_UNITPRICE,SALES_QTY,TOTAL_SALES_AMT)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [SALES_GENERAL]. UPDATEs Not Supported.
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2355]).
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table SALES_GENERAL_BENGALURU :SQL INSERT statement:
+INSERT INTO SALES_GENERAL_BENGALURU(SALES_ID,CUST_ID,FIRSTNAME,LASTNAME,CITY,COUNTRY,PRODUCTID,PRODUCT_NAME,PRODUCT_UNITPRICE,SALES_QTY,TOTAL_SALES_AMT)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [SALES_GENERAL_BENGALURU]. UPDATEs Not Supported.
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2355]).
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table SALES_GENERAL_DELHI :SQL INSERT statement:
+INSERT INTO SALES_GENERAL_DELHI(SALES_ID,CUST_ID,FIRSTNAME,LASTNAME,CITY,COUNTRY,PRODUCTID,PRODUCT_NAME,PRODUCT_UNITPRICE,SALES_QTY,TOTAL_SALES_AMT)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [SALES_GENERAL_DELHI]. UPDATEs Not Supported.
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8147 : Writer: Target is database [xepdb1], user [core], bulk mode [OFF]
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8397 : Appending output data to file [C:\Informatica\10.2.0\server\infa_shared\BadFiles\Oracle_Tgt] (initial size [2355]).
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8124 : Target Table SALES_GENERAL_LONDON :SQL INSERT statement:
+INSERT INTO SALES_GENERAL_LONDON(SALES_ID,CUST_ID,FIRSTNAME,LASTNAME,CITY,COUNTRY,PRODUCTID,PRODUCT_NAME,PRODUCT_UNITPRICE,SALES_QTY,TOTAL_SALES_AMT)  VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) 
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8020 : No column marked as primary key for table [SALES_GENERAL_LONDON]. UPDATEs Not Supported.
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8270 : Target connection group #1 consists of target(s) [SALES_GENERAL, SALES_GENERAL_BENGALURU, SALES_GENERAL_DELHI, SALES_GENERAL_LONDON]
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8003 : Writer initialization complete.
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_1_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_2_1) : (IS | is) : node01 : BLKR_16007 : Reader run started.
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8005 : Writer run started.
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_1_1) : (IS | is) : node01 : RR_4010 : SQ instance [SQ_CUST_SALES] SQL Query [SELECT CUST_SALES.CUSTID, CUST_SALES.PRODUCTID, CUST_SALES.SLAESQTY FROM CUST_SALES]
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_2_1) : (IS | is) : node01 : RR_4010 : SQ instance [SQ_CUSTOMER] SQL Query [SELECT CUSTOMER.CUSTID, CUSTOMER.CUSTNAME, CUSTOMER.CUSTCITY, CUSTOMER.CUSTCOUNTRY FROM CUSTOMER]
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8158 : 
+
+*****START LOAD SESSION*****
+
+Load Start Time: Mon Mar 18 19:11:04 2024
+
+Target tables:
+
+     SALES_GENERAL
+     SALES_GENERAL_BENGALURU
+     SALES_GENERAL_DELHI
+     SALES_GENERAL_LONDON
+
+
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_2_1) : (IS | is) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_1_1) : (IS | is) : node01 : RR_4049 : RR_4049 SQL Query issued to database : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_1_1) : (IS | is) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_1_1) : (IS | is) : node01 : BLKR_16019 : Read [5] rows, read [0] error rows for source table [CUST_SALES] instance name [CUST_SALES]
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_1_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21077 : DBG_21077 Create joiner cache on master relation : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_2_1) : (IS | is) : node01 : RR_4050 : RR_4050 First row returned from database to reader : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_2_1) : (IS | is) : node01 : BLKR_16019 : Read [7] rows, read [0] error rows for source table [CUSTOMER] instance name [CUSTOMER]
+2024-03-18 19:11:04 : INFO : (8216 | READER_1_2_1) : (IS | is) : node01 : BLKR_16008 : Reader run completed.
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_1_1) : (IS | is) : node01 : TE_7212 : Increasing [Index Cache] size for transformation [JNRTRANS] from [70805947] to [70806000].
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_1_1) : (IS | is) : node01 : TE_7212 : Increasing [Data Cache] size for transformation [JNRTRANS] from [141611894] to [141612240].
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_1_1) : (IS | is) : node01 : CMN_1690 : Created new data file [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR61_26_0_344.dat] and index file [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR61_26_0_344.idx] for Joiner [JNRTRANS].
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21214 : DBG_21214 Finished joiner cache on master relation : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_1_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_CUST_SALES]. Total errors [0] 
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21603 : DBG_21603 Open master relation cache for detail joiner : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21215 : DBG_21215 Finished processing detail relation : (Mon Mar 18 19:11:04 2024)
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [SALES_GENERAL] at: Mon Mar 18 19:11:04 2024
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_2_1) : (IS | is) : node01 : CMN_1795 : The index cache size that would hold [5] input rows from the master for [JNRTRANS], in memory, is [2000] bytes
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_2_1) : (IS | is) : node01 : CMN_1794 : The data cache size that would hold [5] input rows from the master for [JNRTRANS], in memory, is [528] bytes
+2024-03-18 19:11:04 : INFO : (8216 | TRANSF_1_2_1) : (IS | is) : node01 : DBG_21216 : Finished transformations for Source Qualifier [SQ_CUSTOMER]. Total errors [0] 
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [SALES_GENERAL_BENGALURU] at: Mon Mar 18 19:11:04 2024
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [SALES_GENERAL_DELHI] at: Mon Mar 18 19:11:04 2024
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8167 : Start loading table [SALES_GENERAL_LONDON] at: Mon Mar 18 19:11:04 2024
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [SALES_GENERAL] at: Mon Mar 18 19:11:04 2024
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8141 : 
+Commit on end-of-data  Mon Mar 18 19:11:04 2024
+===================================================
+
+WRT_8036 Target: SALES_GENERAL (Instance Name: [SALES_GENERAL])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+WRT_8036 Target: SALES_GENERAL_BENGALURU (Instance Name: [SALES_GENERAL_BENGALURU])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+WRT_8036 Target: SALES_GENERAL_DELHI (Instance Name: [SALES_GENERAL_DELHI])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+WRT_8036 Target: SALES_GENERAL_LONDON (Instance Name: [SALES_GENERAL_LONDON])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [SALES_GENERAL_BENGALURU] at: Mon Mar 18 19:11:04 2024
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [SALES_GENERAL_DELHI] at: Mon Mar 18 19:11:04 2024
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8168 : End loading table [SALES_GENERAL_LONDON] at: Mon Mar 18 19:11:04 2024
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8035 : Load complete time: Mon Mar 18 19:11:04 2024
+
+LOAD SUMMARY
+============
+
+WRT_8036 Target: SALES_GENERAL (Instance Name: [SALES_GENERAL])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+WRT_8036 Target: SALES_GENERAL_BENGALURU (Instance Name: [SALES_GENERAL_BENGALURU])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+WRT_8036 Target: SALES_GENERAL_DELHI (Instance Name: [SALES_GENERAL_DELHI])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+WRT_8036 Target: SALES_GENERAL_LONDON (Instance Name: [SALES_GENERAL_LONDON])
+WRT_8038 Inserted rows - Requested: 1          Applied: 1          Rejected: 0          Affected: 1         
+
+
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8043 : *****END LOAD SESSION*****
+2024-03-18 19:11:04 : INFO : (8216 | WRITER_1_*_1) : (IS | is) : node01 : WRT_8006 : Writer run completed.
+2024-03-18 19:11:04 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24031 : 
+***** RUN INFO FOR TGT LOAD ORDER GROUP [1], CONCURRENT SET [1] *****
+Thread [READER_1_1_1] created for [the read stage] of partition point [SQ_CUST_SALES] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_1_1] created for [the transformation stage] of partition point [SQ_CUST_SALES] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [READER_1_2_1] created for [the read stage] of partition point [SQ_CUSTOMER] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [TRANSF_1_2_1] created for [the transformation stage] of partition point [SQ_CUSTOMER] has completed. The total run time was insufficient for any meaningful statistics.
+Thread [WRITER_1_*_1] created for [the write stage] of partition point [SALES_GENERAL, SALES_GENERAL_BENGALURU, SALES_GENERAL_DELHI, SALES_GENERAL_LONDON] has completed. The total run time was insufficient for any meaningful statistics.
+
+2024-03-18 19:11:05 : INFO : (8216 | MAPPING) : (IS | is) : node01 : CMN_1793 : The index cache size that would hold [4] rows in the lookup table for [LKPTRANS], in memory, is [2800] bytes
+2024-03-18 19:11:05 : INFO : (8216 | MAPPING) : (IS | is) : node01 : CMN_1792 : The data cache size that would hold [4] rows in the lookup table for [LKPTRANS], in memory, is [16384] bytes
+2024-03-18 19:11:05 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24005 : PETL_24005 Starting post-session tasks. : (Mon Mar 18 19:11:05 2024)
+2024-03-18 19:11:05 : INFO : (8216 | POST-SESS) : (IS | is) : node01 : PETL_24091 : Thread [POST-SESS] has the ID [13].
+2024-03-18 19:11:05 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24029 : PETL_24029 Post-session task completed successfully. : (Mon Mar 18 19:11:05 2024)
+2024-03-18 19:11:05 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TE_7216 : Deleting cache files [PMLKUP61_12_0_344W64] for transformation [LKPTRANS].
+2024-03-18 19:11:05 : INFO : (8216 | MAPPING) : (IS | is) : node01 : TM_6018 : The session completed with [0] row transformation errors. 
+2024-03-18 19:11:05 : INFO : (8216 | MANAGER) : (IS | is) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR61_26_0_344.dat] for transformation [JNRTRANS].
+2024-03-18 19:11:05 : INFO : (8216 | MANAGER) : (IS | is) : node01 : TE_7216 : Deleting cache files [C:\Informatica\10.2.0\server\infa_shared\Cache\PMJNR61_26_0_344.idx] for transformation [JNRTRANS].
+2024-03-18 19:11:06 : INFO : (8216 | MANAGER) : (IS | is) : node01 : PETL_24002 : Parallel Pipeline Engine finished.
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : PETL_24012 : Session run completed successfully.
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6022 : 
+
+SESSION LOAD SUMMARY
+================================================
+
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6252 : Source Load Summary.
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_CUST_SALES] (Instance Name: [SQ_CUST_SALES])
+	 Output Rows [5], Affected Rows [5], Applied Rows [5], Rejected Rows [0]
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SQ_CUSTOMER] (Instance Name: [SQ_CUSTOMER])
+	 Output Rows [7], Affected Rows [7], Applied Rows [7], Rejected Rows [0]
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6253 : Target Load Summary.
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SALES_GENERAL] (Instance Name: [SALES_GENERAL])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SALES_GENERAL_BENGALURU] (Instance Name: [SALES_GENERAL_BENGALURU])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SALES_GENERAL_DELHI] (Instance Name: [SALES_GENERAL_DELHI])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : CMN_1740 : Table: [SALES_GENERAL_LONDON] (Instance Name: [SALES_GENERAL_LONDON])
+	 Output Rows [1], Affected Rows [1], Applied Rows [1], Rejected Rows [0]
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6023 : 
+===================================================
+
+2024-03-18 19:11:06 : INFO : (8216 | DIRECTOR) : (IS | is) : node01 : TM_6020 : Session [s_M_Project] completed at [Mon Mar 18 19:11:06 2024].
