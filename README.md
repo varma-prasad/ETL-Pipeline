@@ -7,6 +7,8 @@ Build ETL Pipelines for Various Scenarios
 * [Incremental Load](#incremental-load)
 * [SCD Implementation](#scd-implementation)
 * [F2F Pipeline](#f2f-pipeline)
+* [ETL Pipeline Project](#etl-pipeline-project)
+* [About Author](#authors)
 
 ## Overview
 
@@ -131,6 +133,52 @@ Negative Scenarios
 
 ![image](https://github.com/varma-prasad/ETL-Pipeline/assets/108605375/f6875222-d64d-4d62-944a-da0a9f759cd3)
 
+## ETL Pipeline Project
+
+### Source to Target Mapping Sheet and Rules
+
+![image](https://github.com/varma-prasad/ETL-Pipeline/assets/108605375/1ba34c06-ccfe-4b70-8636-c3808a6b4ebf)
+
+### Design and Development
+
+•	Import source and target details to the Designer\
+•	Design Mapping from source to target with necessary transformation \
+•	Use Substr and instr functions to trim names to get first name and last name to load in the target table\
+•	Use Joiner transformation to join to two tables with required join type to get the data\
+•	Lookup transformation to get data from the lookup table\
+•	Filter transformation to limit the entry of data into target table\
+•	Router transformation to route the data according to city
+
+![image](https://github.com/varma-prasad/ETL-Pipeline/assets/108605375/cc18adbd-0ed1-4675-86a0-2f0d4052e1de)
+![image](https://github.com/varma-prasad/ETL-Pipeline/assets/108605375/98bba9f3-93d3-4490-85fb-321385ae31ca)
+![image](https://github.com/varma-prasad/ETL-Pipeline/assets/108605375/38650d67-8dd5-4ddb-b14b-7f01a654c226)
+
+### Data Validation
+
+•	Check Run properties and session logs for the detailed report\
+•	Check Count in Source and Target tables\
+•	Check all the transformation logic are fulfilled such as (First/Last name, Total Sales Field, Null Cities Replaced, Product Price < 2000 are not entered)\
+•	Check the rules of Data Loading are adhered
+
+![image](https://github.com/varma-prasad/ETL-Pipeline/assets/108605375/d1eaf98b-2bfc-4704-a5d3-4cc2505810c0)
+
+----
+
+## 🛠 Tools used
+![](https://img.shields.io/badge/Informatica_Powercenter-v10.2.0-purple)
+![](https://img.shields.io/badge/Oracle_Database_21c-v21.1.0-blue)
+![](https://img.shields.io/badge/Linux-v21.3-green)
+
+## Authors
+
+- [Varma Prasad S](https://github.com/varma-prasad)
+
+## 🛠 Skills
+SQL, ETL, Python, Power BI...
+
+## 🔗 Links
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/varma-prasad-s/)
 
 
 
